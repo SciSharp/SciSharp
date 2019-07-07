@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1026.6978"
+   height="328.57144"
+   viewBox="0 0 271.64711 86.934526"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="numpy.net.architecture.svg"
+   inkscape:export-filename="tf.net.logo512.png"
+   inkscape:export-xdpi="138.45558"
+   inkscape:export-ydpi="138.45558"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="675.20876"
+     inkscape:cy="250.67644"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     showguides="false"
+     units="px"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-115.16765,123.92938"
+       orientation="1,0"
+       id="guide929"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(8.3858147,-332.35208)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1023"
+       width="271.64713"
+       height="86.934525"
+       x="-8.1319761"
+       y="332.79214" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.631163"
+       y="347.40942"
+       id="text843"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="27.631163"
+         y="347.40942"
+         style="font-size:9.87777805px;stroke-width:0.26458332">Numpy</tspan></text>
+    <g
+       id="g1009"
+       transform="translate(2.0439627,8.3134011)">
+      <rect
+         ry="2.5349789"
+         y="379.87094"
+         x="3.8228469"
+         height="23.348486"
+         width="73.277794"
+         id="rect845"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#865fc5;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         rx="2.5349789" />
+      <text
+         id="text849"
+         y="388.66986"
+         x="40.438488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan851"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="388.66986"
+           x="40.438488"
+           sodipodi:role="line">Number Crunching</tspan><tspan
+           id="tspan933"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="396.60736"
+           x="40.438488"
+           sodipodi:role="line">Layer (C++)</tspan></text>
+    </g>
+    <g
+       id="g1003"
+       transform="translate(0.75958878,1.0971239)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.158"
+       y="347.40942"
+       id="text843-5"><tspan
+         sodipodi:role="line"
+         id="tspan841-2"
+         x="104.158"
+         y="347.40942"
+         style="font-size:9.87777805px;stroke-width:0.26458332">Numpy.NET</tspan></text>
+    <g
+       id="g1015"
+       transform="translate(-6.8241284,1.7065599)" />
+    <g
+       id="g1021"
+       transform="translate(-8.3226408,9.1901064)">
+      <rect
+         ry="2.5349789"
+         y="379.26151"
+         x="99.69455"
+         height="23.348486"
+         width="73.277794"
+         id="rect845-2"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         rx="2.5349789" />
+      <text
+         id="text849-7"
+         y="388.29663"
+         x="136.3102"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378386"
+         xml:space="preserve"><tspan
+           id="tspan851-4"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378386"
+           y="388.29663"
+           x="136.3102"
+           sodipodi:role="line">Number Crunching</tspan><tspan
+           id="tspan933-3"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378386"
+           y="396.23413"
+           x="136.3102"
+           sodipodi:role="line">Layer (C++)</tspan></text>
+    </g>
+    <g
+       id="g1116"
+       transform="translate(21.733631,-55.562499)">
+      <rect
+         rx="2.5349789"
+         ry="2.5349789"
+         y="433.88846"
+         x="-15.866821"
+         height="9.9850101"
+         width="73.277794"
+         id="rect845-24"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#865fc5;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text849-5"
+         y="440.51651"
+         x="20.748819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan851-42"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="440.51651"
+           x="20.748819"
+           sodipodi:role="line">API  (Python)</tspan><tspan
+           id="tspan933-9"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="448.45401"
+           x="20.748819"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       id="g1116-7"
+       transform="translate(107.23873,-55.3248)">
+      <rect
+         rx="2.5349789"
+         ry="2.5349789"
+         y="433.88846"
+         x="-15.866821"
+         height="9.9850101"
+         width="73.277794"
+         id="rect845-24-6"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text849-5-7"
+         y="440.51651"
+         x="20.748819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan851-42-5"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="440.51651"
+           x="20.748819"
+           sodipodi:role="line">API  (Python)</tspan><tspan
+           id="tspan868"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="448.45401"
+           x="20.748819"
+           sodipodi:role="line" /><tspan
+           id="tspan933-9-9"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="456.39151"
+           x="20.748819"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       id="g999">
+      <g
+         transform="translate(78.384593,8.5224453)"
+         id="g1021-2">
+        <rect
+           rx="2.5349791"
+           style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect845-2-3"
+           width="42.661724"
+           height="23.348486"
+           x="99.69455"
+           y="379.26151"
+           ry="2.5349789" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378386"
+           x="121.38014"
+           y="388.4856"
+           id="text849-7-1"><tspan
+             sodipodi:role="line"
+             x="122.09948"
+             y="388.4856"
+             style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378386"
+             id="tspan933-3-6">Nr. crunching </tspan><tspan
+             sodipodi:role="line"
+             x="121.38014"
+             y="396.4231"
+             style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378386"
+             id="tspan1056">(C#)</tspan></text>
+      </g>
+      <g
+         transform="translate(193.67869,-33.007288)"
+         id="g1116-7-2">
+        <rect
+           style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect845-24-6-4"
+           width="18.460678"
+           height="23.403166"
+           x="38.934078"
+           y="420.67072"
+           ry="2.5349786"
+           rx="2.5349789" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+           x="48.311554"
+           y="430.12619"
+           id="text849-5-7-7"><tspan
+             sodipodi:role="line"
+             x="48.311554"
+             y="430.12619"
+             style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+             id="tspan851-42-5-9">C or</tspan><tspan
+             sodipodi:role="line"
+             x="48.311554"
+             y="438.06369"
+             style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+             id="tspan1058">GPU*</tspan><tspan
+             sodipodi:role="line"
+             x="48.311554"
+             y="446.00119"
+             style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+             id="tspan933-9-9-0" /></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="193.25269"
+       y="346.74863"
+       id="text843-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan841-2-9"
+         x="193.25269"
+         y="346.74863"
+         style="font-size:9.87777805px;stroke-width:0.26458332">NumSharp</tspan><tspan
+         sodipodi:role="line"
+         x="193.25269"
+         y="359.09586"
+         style="font-size:9.87777805px;stroke-width:0.26458332"
+         id="tspan1205" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.11484385px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="192.88992"
+       y="355.52545"
+       id="text843-5-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan841-2-9-8"
+         x="192.88992"
+         y="361.75095"
+         style="font-size:7.11484385px;stroke-width:0.26458332" /><tspan
+         sodipodi:role="line"
+         x="192.88992"
+         y="370.6445"
+         style="font-size:7.11484385px;stroke-width:0.26458332"
+         id="tspan1205-0" /></text>
+    <g
+       id="g1116-7-5"
+       transform="translate(107.23873,-65.564715)">
+      <rect
+         rx="2.5349789"
+         ry="2.5349789"
+         y="433.88846"
+         x="-15.866821"
+         height="9.9850101"
+         width="73.277794"
+         id="rect845-24-6-3"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text849-5-7-6"
+         y="440.51651"
+         x="20.748819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan868-1"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="440.51651"
+           x="20.748819"
+           sodipodi:role="line">Pythonnet  (C# dynamic)</tspan><tspan
+           id="tspan933-9-9-07"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="448.45401"
+           x="20.748819"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       id="g1116-7-5-3"
+       transform="translate(107.23873,-75.61025)">
+      <rect
+         rx="2.5349789"
+         ry="2.5349789"
+         y="433.88846"
+         x="-15.866821"
+         height="9.9850101"
+         width="73.277794"
+         id="rect845-24-6-3-8"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text849-5-7-6-9"
+         y="440.51651"
+         x="20.748819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan868-1-5"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="440.51651"
+           x="20.748819"
+           sodipodi:role="line">API (C# strong typed)</tspan><tspan
+           id="tspan933-9-9-07-7"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="448.45401"
+           x="20.748819"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       id="g1116-7-1"
+       transform="translate(193.7449,-56.256138)">
+      <rect
+         rx="2.5349789"
+         ry="2.5349789"
+         y="433.88846"
+         x="-15.866821"
+         height="9.9850101"
+         width="73.277794"
+         id="rect845-24-6-2"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#661f76;stroke-width:1.08041525;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text849-5-7-66"
+         y="440.51651"
+         x="20.748819"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18378384"
+         xml:space="preserve"><tspan
+           id="tspan933-9-9-01"
+           style="font-size:6.3499999px;text-align:center;text-anchor:middle;stroke-width:0.18378384"
+           y="440.51651"
+           x="20.748819"
+           sodipodi:role="line">API  (C#)</tspan></text>
+    </g>
+    <g
+       id="g1069"
+       transform="matrix(0.6377765,0,0,0.6377765,81.952491,144.29614)"
+       style="stroke-width:1.56794739">
+      <circle
+         r="1.5"
+         cy="399.98618"
+         cx="223.31358"
+         style="fill:#000000;stroke:none;stroke-width:1.56794739"
+         id="path1060" />
+      <circle
+         r="1.5"
+         cy="399.98618"
+         cx="227.32957"
+         style="fill:#000000;stroke:none;stroke-width:1.56794739"
+         id="path1062" />
+      <circle
+         r="1.5"
+         cy="399.98621"
+         cx="231.3456"
+         style="fill:#000000;stroke:none;stroke-width:1.56794739"
+         id="path1064" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.84261608px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="196.61935"
+       y="417.03561"
+       id="text1073"><tspan
+         sodipodi:role="line"
+         id="tspan1071"
+         x="196.61935"
+         y="417.03561"
+         style="stroke-width:0.26458332">*GPU support not implemented yet</tspan></text>
+  </g>
+</svg>
