@@ -5,17 +5,16 @@
               wrap
     >
       <v-flex xs12>
-        <v-img
-                :src="require('../assets/scisharp.svg')"
+        <img
+                src="@/assets/scisharp.svg"
                 class="mt-5 mb-3"
-                contain
                 height="300"
-        ></v-img>
+        ></img>
       </v-flex>
 
       <v-flex mb-5>
         <h2 class="display-1 font-weight-light mb-3 white--text">
-          A .NET based Open Source ecosystem for Data Science, Machine Learning and AI.
+          A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
         </h2>
       </v-flex>
 
@@ -37,7 +36,7 @@
           <v-flex xs-3 ma-3>
             <v-card class="white--text" color="#865fc5">
               <v-card-title>
-                <h2 class="font-weight-light text-xs-center">Huge ML/AI Knowledge Base</h2>
+                <h2 class="font-weight-light text-xs-center">Huge Knowledge Base</h2>
               </v-card-title>
               <v-card-text class="text-xs-left">
                 Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.
