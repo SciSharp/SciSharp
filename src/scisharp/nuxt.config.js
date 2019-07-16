@@ -1,15 +1,15 @@
 import colors from 'vuetify/es5/util/colors'
 
-/* nuxt.config.js */
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/SciSharp/'
-  }
-} : {}
+// /* nuxt.config.js */
+// // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+// const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//   router: {
+//     base: '/SciSharp/'
+//   }
+// } : {}
 
 export default {
-  ...routerBase,
+  //...routerBase,
   mode: 'universal',
   /*
   ** Headers of the page
