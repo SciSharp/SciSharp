@@ -10,18 +10,6 @@
   * @license MIT
   */
 
-/**
- * vue-meta v1.6.0
- * (c) 2019 Declan de Wet & Sébastien Chopin (@Atinux)
- * @license MIT
- */
-
-/*
-	object-assign
-	(c) Sindre Sorhus
-	@license MIT
-	*/
-
 /*!
  * Determine if an object is a Buffer
  *

@@ -13,9 +13,10 @@
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/vuetify": "0.5.5",
     "@nuxtjs/axios": "^5.3.6",
-    "nuxt": "^2.0.0"
+    "@nuxtjs/vuetify": "0.5.5",
+    "nuxt": "^2.0.0",
+    "vue-meta": "^2.0.5"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",

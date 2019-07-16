@@ -1,9 +1,9 @@
 <template>
   <v-app dark color="violet">
-    <v-toolbar app class="violet elevation-0 theme--dark" >
+    <v-toolbar app class="violet elevation-0 theme--dark" ref="toolbar">
       <v-toolbar-title class="headline">
         <v-layout row>
-          <img class="mr-2"
+          <img class="mr-0"
                  src="@/assets/icon.svg"
                  contain
                  style="width: 48px; height: 48px;"
@@ -16,6 +16,9 @@
         </v-layout>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
+        <v-icon small>fab fa-twitter</v-icon>
+      </v-btn>
       <v-btn
               flat
               href="https://github.com/SciSharp"
@@ -24,10 +27,7 @@
       >
         <v-layout row>
 
-          <img class="mr-2"
-                 src="@/assets/github_cat_white.svg"
-                 style="width: 20px; height: 20px;"
-          ></img>
+          <v-icon small class="mr-2">fab fa-github</v-icon>
 
           <span class="mr-2">Github</span>
         </v-layout>
@@ -56,5 +56,19 @@
 <style>
   .violet {
     background-color: #661f76 !important;
+  }
+  .bg1 {
+    background-color: #661f76 !important;
+  }
+  .bg2 {
+    background-color: #865fc5;
+  }
+  .bg3 {
+    background-color: white;
+  }
+  .slide {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 </style>
