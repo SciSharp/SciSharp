@@ -16,12 +16,23 @@
         </v-layout>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      
       <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://medium.com/scisharp" target="_blank">
         <v-icon small>fab fa-medium</v-icon>
       </v-btn>
+
+      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://www.facebook.com/scisharp.stack.9" target="_blank">
+        <v-icon small>fab fa-facebook</v-icon>
+      </v-btn>
+
       <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
         <v-icon small>fab fa-twitter</v-icon>
       </v-btn>
+
+      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://gitter.im/sci-sharp/community" target="_blank">
+        <v-icon small>fab fa-gitter</v-icon>
+      </v-btn>
+
       <v-btn
               flat
               href="https://github.com/SciSharp"
