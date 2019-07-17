@@ -16,6 +16,9 @@
         </v-layout>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://medium.com/scisharp" target="_blank">
+        <v-icon small>fab fa-medium</v-icon>
+      </v-btn>
       <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
         <v-icon small>fab fa-twitter</v-icon>
       </v-btn>
