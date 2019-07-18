@@ -97,7 +97,8 @@
 
     <SlideTensorFlowNet></SlideTensorFlowNet>
     <SlideNumSharp></SlideNumSharp>
-    <KerasNet></KerasNet>
+    <SlideKerasNet></SlideKerasNet>
+    <SlideNumpyNet></SlideNumpyNet>
   </v-layout>
 </template>
 
@@ -112,11 +113,12 @@
 <script>
  import SlideTensorFlowNet from '~/components/SlideTensorFlowNet.vue'
  import SlideNumSharp from '~/components/SlideNumSharp.vue'
- import KerasNet from "~/components/KerasNet";
+ import SlideKerasNet from "~/components/SlideKerasNet";
+ import SlideNumpyNet from "~/components/SlideNumpyNet";
 
 export default {
   components: {
-    KerasNet, SlideTensorFlowNet,SlideNumSharp,
+    SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,
   },
   head () {
     return {
