@@ -19,7 +19,7 @@
                     .NET Standard bindings for TensorFlow
                 </h2>
                 <p class="title font-weight-light mb-3 white--text">
-                    Create, train and deploy Machine Learning models in C#
+                    Create, train and deploy Machine Learning models in C# or F#
                 </p>
             </v-flex>
 

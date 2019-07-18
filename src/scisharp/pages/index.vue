@@ -58,7 +58,7 @@
                 SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like <b>TensorFlow</b>,
                 <b>Keras</b>, <b>PyTorch</b>, <b>Numpy</b> and many more in .NET Core. Since the APIs of the ported libraries are so similar
                 to the originals you can easily re-use all existing resources, documentation and community solutions to
-                common problems in C# without much effort.
+                common problems in C# or F# without much effort.
               </v-card-text>
             </v-card>
           </div>
