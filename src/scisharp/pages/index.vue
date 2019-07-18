@@ -99,6 +99,7 @@
     <SlideNumSharp></SlideNumSharp>
     <SlideKerasNet></SlideKerasNet>
     <SlideNumpyNet></SlideNumpyNet>
+    <SlideIncubator></SlideIncubator>
   </v-layout>
 </template>
 
@@ -115,10 +116,11 @@
  import SlideNumSharp from '~/components/SlideNumSharp.vue'
  import SlideKerasNet from "~/components/SlideKerasNet";
  import SlideNumpyNet from "~/components/SlideNumpyNet";
+ import SlideIncubator from "~/components/SlideIncubator";
 
 export default {
   components: {
-    SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,
+    SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,SlideIncubator,
   },
   head () {
     return {
