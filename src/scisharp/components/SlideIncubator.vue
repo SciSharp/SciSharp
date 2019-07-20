@@ -59,6 +59,36 @@
                                 </v-list-tile-content>
                             </v-list-tile>
 
+                            <v-list-tile avatar href="https://github.com/SciSharp/Matplotlib.Net" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>Matplotlib.Net</v-list-tile-title>
+                                    <v-list-tile-sub-title>.NET wrapper for the Python plotting library Matplotlib</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
+                            <v-list-tile avatar href="https://github.com/SciSharp/CherubNLP" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>CherubNLP</v-list-tile-title>
+                                    <v-list-tile-sub-title>Natural Language Processing in .NET Core</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
+                            <v-list-tile avatar href="https://github.com/SciSharp/scikit-learn.net" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>scikit-learn.net</v-list-tile-title>
+                                    <v-list-tile-sub-title>A pure C# implementation of SciKit Learn</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
                         </v-list>
                     </v-flex>
 
@@ -84,6 +114,37 @@
                                     <v-list-tile-sub-title>A toolkit for developing and comparing reinforcement learning algorithms</v-list-tile-sub-title>
                                 </v-list-tile-content>
                             </v-list-tile>
+
+                            <v-list-tile avatar href="https://github.com/SciSharp/mxnetlib" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>MxNetLib</v-list-tile-title>
+                                    <v-list-tile-sub-title>.NET Bindings for Apache MXNET, a Scalable Deep Learning Framework</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
+                            <v-list-tile avatar href="https://github.com/SciSharp/Ludwig.NET" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>Ludwig.NET</v-list-tile-title>
+                                    <v-list-tile-sub-title>.NET Bindings for Ludwig. Train and test deep learning models without writing code.</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
+                            <v-list-tile avatar href="https://github.com/SciSharp/Microcharts.Matplotlib" target="_blank" @click="">
+                                <v-list-tile-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-tile-avatar>
+                                <v-list-tile-content>
+                                    <v-list-tile-title>Microcharts.Matplotlib</v-list-tile-title>
+                                    <v-list-tile-sub-title>.NET wrapper of Microcharts for Data Science and Machine Learning</v-list-tile-sub-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
                         </v-list>
                     </v-flex>
 

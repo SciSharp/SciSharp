@@ -2,7 +2,7 @@
   <v-layout column id="hmm">
 
     <!--    main screen-->
-    <div class="slide mt-5">
+    <div class="slide mt-3">
     <v-layout column
               text-xs-center
               wrap
@@ -20,7 +20,7 @@
         <h2 class="display-1 font-weight-light mb-3 white--text">
           A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI
         </h2>
-        <p class="title font-weight-light mb-3 white--text">
+        <p class="title font-weight-light mb-5 white--text">
           SciSharp STACK brings all major ML/AI Frameworks from Python to .NET
         </p>
       </v-flex>
@@ -99,6 +99,8 @@
     <SlideNumSharp></SlideNumSharp>
     <SlideKerasNet></SlideKerasNet>
     <SlideNumpyNet></SlideNumpyNet>
+    <SlideSciSharpCube></SlideSciSharpCube>
+    <SlideNeuralNetworkNet></SlideNeuralNetworkNet>
     <SlideIncubator></SlideIncubator>
   </v-layout>
 </template>
@@ -116,11 +118,14 @@
  import SlideNumSharp from '~/components/SlideNumSharp.vue'
  import SlideKerasNet from "~/components/SlideKerasNet";
  import SlideNumpyNet from "~/components/SlideNumpyNet";
+ import SlideSciSharpCube from "../components/SlideSciSharpCube";
  import SlideIncubator from "~/components/SlideIncubator";
+ import SlideNeuralNetworkNet from "../components/SlideNeuralNetworkNet";
 
 export default {
   components: {
-    SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,SlideIncubator,
+    SlideNeuralNetworkNet,
+    SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,SlideIncubator,
   },
   head () {
     return {
