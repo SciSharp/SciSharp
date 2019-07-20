@@ -1,5 +1,5 @@
 <template>
-    <div class="slide pa-5 bg1">
+    <div class="slide pa-5 bg1" id="scisharpcube">
         <v-layout column
                   text-xs-center
                   wrap

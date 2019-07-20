@@ -1,5 +1,5 @@
 <template>
-    <div class="slide pa-5 bg1">
+    <div class="slide pa-5 bg1" id="incubator">
         <v-layout column
                   text-xs-center
                   wrap
@@ -45,7 +45,7 @@
                                 </v-list-tile-avatar>
                                 <v-list-tile-content>
                                     <v-list-tile-title>Gym.NET</v-list-tile-title>
-                                    <v-list-tile-sub-title>A pure C# implementation of Reinforcement Learning Environments</v-list-tile-sub-title>
+                                    <v-list-tile-sub-title>A pure C# implementation of OpenAI/Gym Reinforcement Learning Environments</v-list-tile-sub-title>
                                 </v-list-tile-content>
                             </v-list-tile>
 

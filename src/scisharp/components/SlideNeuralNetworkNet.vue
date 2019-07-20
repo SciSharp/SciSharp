@@ -1,5 +1,5 @@
 <template>
-    <div class="slide pa-5 bg2">
+    <div class="slide pa-5 bg2" id="neuralnetworknet">
         <v-layout column
                   text-xs-center
                   wrap

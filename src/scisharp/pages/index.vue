@@ -102,6 +102,8 @@
     <SlideSciSharpCube></SlideSciSharpCube>
     <SlideNeuralNetworkNet></SlideNeuralNetworkNet>
     <SlideIncubator></SlideIncubator>
+
+    <Footer></Footer>
   </v-layout>
 </template>
 
@@ -121,9 +123,11 @@
  import SlideSciSharpCube from "../components/SlideSciSharpCube";
  import SlideIncubator from "~/components/SlideIncubator";
  import SlideNeuralNetworkNet from "../components/SlideNeuralNetworkNet";
+ import Footer from "../components/Footer";
 
 export default {
   components: {
+    Footer,
     SlideNeuralNetworkNet,
     SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,SlideIncubator,
   },

@@ -1,5 +1,5 @@
 <template>
-    <div class="slide pa-5 bg2">
+    <div class="slide pa-5 bg2" id="numsharp">
         <v-layout column
                   text-xs-center
                   wrap
@@ -19,7 +19,7 @@
                     A highly optimized pure C# port of NumPy
                 </h2>
                 <p class="title font-weight-light mb-3 white--text">
-                    Tensor computations for Data Science, Machine Learning and AI
+                    N-D Tensor Computation Library for Data Science, Machine Learning and AI
                 </p>
             </v-flex>
 
