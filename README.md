@@ -21,3 +21,7 @@ Keras.NET is a high-level neural networks API, written in C# with Python Binding
 C# bindings for NumPy - a fundamental library for scientific computing, machine learning and AI
 ##### [ICSharpCore](https://github.com/SciSharp/ICSharpCore)
 Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STACK.
+
+### Referenced by:
+* https://medium.com/machinelearningadvantage/run-tensorflow-machine-learning-code-in-c-with-almost-no-changes-77f7b629389
+* https://libinjoseph.com/2019/technologies-to-watch-out/
