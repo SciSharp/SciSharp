@@ -1,12 +1,12 @@
 <template>
     <div class="slide pa-5 grey darken-4" id="footer">
         <v-layout column
-                  text-xs-center
+                  text-center
                   wrap
                   class="pb-5"
         >
             <v-flex>
-                <v-layout row wrap mx-5>
+                <v-layout row wrap mt-5>
                     <v-spacer></v-spacer>
 
                     <v-flex xs4 mx-5>
@@ -34,8 +34,8 @@
 <!--                </v-btn>-->
             </v-flex>
             <v-flex my-3>
-                <p class="body-1">Copyright (c) 2019 - The SciSharp Team</p>
-                <p class="body-1 grey--text">Powered by Vue, Nuxt and Vuetify</p>
+                <p class="body-1 grey--text" >Copyright (c) 2019 - The SciSharp Team</p>
+                <p class="body-1 grey--text"><small>Powered by Vue, Nuxt and Vuetify</small></p>
             </v-flex>
         </v-layout>
 

@@ -1,17 +1,19 @@
 <template>
     <div class="slide pa-5 bg1" id="incubator">
         <v-layout column
-                  text-xs-center
+                  text-center
                   wrap
                   class="pb-5"
         >
             <v-flex xs12>
-                <img
-                        src="@/assets/incubator.svg"
+                <v-img
+                        :src="require('@/assets/incubator.svg')"
                         class="mt-5 mb-0"
+                        contain
                         height="300"
+                        max-height="300"
                         alt="Incubator"
-                ></img>
+                ></v-img>
             </v-flex>
 
             <v-flex mb-5>
@@ -24,14 +26,14 @@
             </v-flex>
 
             <v-flex>
-                <v-layout row wrap mx-5>
+                <v-layout row wrap mx-5 text-left>
                     <v-spacer></v-spacer>
                     <v-flex xs4 mx-5>
-                        <v-list two-line class="bg1">
+                        <v-list two-line class="bg1" dark>
 
                             <v-list-item href="https://github.com/SciSharp/Torch.NET" target="_blank" @click="">
                                 <v-list-item-avatar>
-                                    <img src="@/assets/Torch.NET_icon_transparent.svg" width="48" height="48" alt="Torch.NET"></img>
+                                    <v-icon>fab fa-github</v-icon>
                                 </v-list-item-avatar>
                                 <v-list-item-content>
                                     <v-list-item-title>Torch.NET</v-list-item-title>
@@ -93,7 +95,7 @@
                     </v-flex>
 
                     <v-flex xs4 mx-5>
-                        <v-list two-line class="bg1">
+                        <v-list two-line class="bg1" dark>
 
                             <v-list-item href="https://github.com/SciSharp/BotSharp" target="_blank" @click="">
                                 <v-list-item-avatar>

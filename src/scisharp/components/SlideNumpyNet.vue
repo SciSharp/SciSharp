@@ -1,17 +1,19 @@
 <template>
     <div class="slide pa-5 bg2" id="numpynet">
         <v-layout column
-                  text-xs-center
+                  text-center
                   wrap
                   class="pb-5"
         >
             <v-flex xs12>
-                <img
-                        src="@/assets/numpy.net.logo.svg"
+                <v-img
+                        :src="require('@/assets/numpy.net.logo.svg')"
                         class="mt-5 mb-0"
+                        contain
                         height="300"
+                        max-height="300"
                         alt="Numpy.NET"
-                ></img>
+                ></v-img>
             </v-flex>
 
             <v-flex mb-3>
@@ -24,20 +26,13 @@
             </v-flex>
 
             <v-flex>
-                <v-btn
-                        text large outlined
-                        href="https://github.com/SciSharp/Numpy.NET"
-                        target="_blank"
-                        color="#3fc6ee"
-                        style="background-color: #661f76 !important;"
-                >
+                <v-btn large dark color="#661f76" href="https://github.com/SciSharp/Numpy.NET" target="_blank">
                     <v-layout row>
-
-                        <v-icon class="mr-2">fab fa-github</v-icon>
-
+                        <v-icon class="mx-2" small>fab fa-github</v-icon>
                         <span class="mr-2">Github</span>
                     </v-layout>
                 </v-btn>
+
             </v-flex>
         </v-layout>
 

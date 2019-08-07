@@ -1,7 +1,7 @@
 <template>
   <v-app dark color="violet">
     <v-navigation-drawer app clipped temporary v-model="drawer">
-      <v-list v-for="item in navbar_libs">
+      <v-list v-for="item in navbar_libs" :key="item.id">
         <v-list-item @click="on_navbar_click(item)">
           <v-list-item-title>
             {{item.name}}
@@ -42,7 +42,9 @@
     </v-app-bar>
 
     <v-content class="violet">
-      <nuxt />
+<!--        <v-container fluid>-->
+            <nuxt />
+<!--        </v-container>-->
     </v-content>
   </v-app>
 </template>

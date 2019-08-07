@@ -1,17 +1,19 @@
 <template>
     <div class="slide pa-5 bg1" id="scisharpcube">
         <v-layout column
-                  text-xs-center
+                  text-center
                   wrap
                   class="pb-5"
         >
-            <v-flex xs12>
-                <img
-                        src="@/assets/SciSharpCube.svg"
+            <v-flex xs12 my-5>
+                <v-img
+                        :src="require('@/assets/SciSharpCube.svg')"
                         class="mt-5 mb-0"
+                        contain
                         height="300"
+                        max-height="300"
                         alt="SciSharpCube"
-                ></img>
+                ></v-img>
             </v-flex>
 
             <v-flex mb-3>
@@ -24,16 +26,9 @@
             </v-flex>
 
             <v-flex>
-                <v-btn
-                        text large outlined
-                        href="https://github.com/SciSharp/SciSharpCube"
-                        target="_blank"
-                        color="#3fc6ee"
-                >
+                <v-btn large dark color="#865fc5" href="https://github.com/SciSharp/SciSharpCube" target="_blank">
                     <v-layout row>
-
-                        <v-icon class="mr-2">fab fa-github</v-icon>
-
+                        <v-icon class="mx-2" small>fab fa-github</v-icon>
                         <span class="mr-2">Github</span>
                     </v-layout>
                 </v-btn>
