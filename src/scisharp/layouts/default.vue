@@ -1,51 +1,58 @@
 <template>
   <v-app dark color="violet">
-    <v-toolbar app class="violet theme--dark" :class="{ [`elevation-${toolbar_elevation}`]: true }" ref="toolbar">
+    <v-navigation-drawer app clipped temporary v-model="drawer">
+      <v-list>
+        <v-list-item @click="$vuetify.goTo('#tfnet', options)">
+          <v-list-item-title>
+            TensorFlow.NET
+          </v-list-item-title>
+        </v-list-item>
+        <v-list-item @click="$vuetify.goTo('#numsharp', options)">
+          <v-list-item-title>
+            NumSharp
+          </v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar app :clipped-left="true" class="violet theme--dark" :class="{ [`elevation-${toolbar_elevation}`]: true }">
+<!--      <v-app-bar-icon @click="drawer=!drawer"></v-app-bar-icon>-->
       <v-toolbar-title class="headline" @click="$vuetify.goTo(0, options)" style="cursor: pointer;">
-        <v-layout row>
-          <img class="mr-0"
-                 src="@/assets/icon.svg"
-                 contain
-                 style="width: 48px; height: 48px;"
-          ></img>
-          <div class="my-2 ml-2">
-            <span>SciSharp</span>
-            <span class="font-weight-light text-uppercase"> STACK</span>
-          </div>
-        </v-layout>
+        <span>SciSharp</span>
+        <span class="font-weight-light text-uppercase"> STACK</span>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-layout row>
-        <v-btn flat dark @click="$vuetify.goTo('#tfnet', options)">TensorFlow.NET</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#numsharp', options)">NumSharp</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#kerasnet', options)">Keras.NET</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#numpynet', options)">Numpy.NET</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#scisharpcube', options)">SciSharp Cube</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#neuralnetworknet', options)">NeuralNetwork.NET</v-btn>
-        <v-btn flat dark @click="$vuetify.goTo('#incubator', options)">Incubator</v-btn>
-      </v-layout>
+<!--      <v-spacer></v-spacer>-->
+<!--      <v-layout row>-->
+<!--        <v-btn text dark >TensorFlow.NET</v-btn>-->
+<!--        <v-btn text dark >NumSharp</v-btn>-->
+<!--        <v-btn text dark @click="$vuetify.goTo('#kerasnet', options)">Keras.NET</v-btn>-->
+<!--        <v-btn text dark @click="$vuetify.goTo('#numpynet', options)">Numpy.NET</v-btn>-->
+<!--        <v-btn text dark @click="$vuetify.goTo('#scisharpcube', options)">SciSharp Cube</v-btn>-->
+<!--        <v-btn text dark @click="$vuetify.goTo('#neuralnetworknet', options)">NeuralNetwork.NET</v-btn>-->
+<!--        <v-btn text dark @click="$vuetify.goTo('#incubator', options)">Incubator</v-btn>-->
+<!--      </v-layout>-->
       <v-spacer></v-spacer>
       
-      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://medium.com/scisharp" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://medium.com/scisharp" target="_blank">
         <v-icon small>fab fa-medium</v-icon>
       </v-btn>
 
-      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://www.facebook.com/scisharp.stack.9" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://www.facebook.com/scisharp.stack.9" target="_blank">
         <v-icon small>fab fa-facebook</v-icon>
       </v-btn>
 
-      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
         <v-icon small>fab fa-twitter</v-icon>
       </v-btn>
 
-      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://gitter.im/sci-sharp/community" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://gitter.im/sci-sharp/community" target="_blank">
         <v-icon small>fab fa-gitter</v-icon>
       </v-btn>
 
-      <v-btn fab flat dark style="width: 32px; height: 32px;" href="https://github.com/SciSharp" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://github.com/SciSharp" target="_blank">
           <v-icon small >fab fa-github</v-icon>
       </v-btn>
-    </v-toolbar>
+    </v-app-bar>
 
     <v-content class="violet">
       <nuxt />
@@ -60,12 +67,13 @@
     },
     data () {
       return {
+        drawer:false,
+        toolbar_elevation:0,
         options: { // scrolling options for the menu buttons
           duration: 300,
           offset: 0,
           easing: 'easeInOutCubic',
         },
-        toolbar_elevation:0,
       }
     },
     mounted() {
@@ -78,7 +86,7 @@
           this.toolbar_elevation=1;
       })
     },
-    methods() {
+    methods: {
 
     },
   }

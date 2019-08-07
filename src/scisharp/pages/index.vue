@@ -107,13 +107,6 @@
   </v-layout>
 </template>
 
-<script>
-  export default {
-    data: () => ({
-    })
-  }
-</script>
-
 
 <script>
  import SlideTensorFlowNet from '~/components/SlideTensorFlowNet.vue'
@@ -131,6 +124,8 @@ export default {
     SlideNeuralNetworkNet,
     SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet,SlideNumSharp,SlideNumpyNet,SlideIncubator,
   },
+  data: () => ({
+  }),
   head () {
     return {
       title: "SciSharp STACK",

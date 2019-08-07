@@ -25,7 +25,7 @@
 
             <v-flex>
                 <v-btn
-                        flat large outline
+                        text large outlined
                         href="https://github.com/SciSharp/SciSharpCube"
                         target="_blank"
                         color="#3fc6ee"
