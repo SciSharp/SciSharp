@@ -1,36 +1,23 @@
 <template>
   <v-app dark color="violet">
     <v-navigation-drawer app clipped temporary v-model="drawer">
-      <v-list>
-        <v-list-item @click="$vuetify.goTo('#tfnet', options)">
+      <v-list v-for="item in navbar_libs">
+        <v-list-item @click="on_navbar_click(item)">
           <v-list-item-title>
-            TensorFlow.NET
-          </v-list-item-title>
-        </v-list-item>
-        <v-list-item @click="$vuetify.goTo('#numsharp', options)">
-          <v-list-item-title>
-            NumSharp
+            {{item.name}}
           </v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app :clipped-left="true" class="violet theme--dark" :class="{ [`elevation-${toolbar_elevation}`]: true }">
-<!--      <v-app-bar-icon @click="drawer=!drawer"></v-app-bar-icon>-->
+    <v-app-bar app :clipped-left="true" class="violet theme--dark" elevate-on-scroll id="top">
+<!--        :class="{ [`elevation-${toolbar_elevation}`]: true }"-->
+      <v-app-bar-nav-icon dark @click="drawer=!drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="headline" @click="$vuetify.goTo(0, options)" style="cursor: pointer;">
         <span>SciSharp</span>
         <span class="font-weight-light text-uppercase"> STACK</span>
       </v-toolbar-title>
-<!--      <v-spacer></v-spacer>-->
-<!--      <v-layout row>-->
-<!--        <v-btn text dark >TensorFlow.NET</v-btn>-->
-<!--        <v-btn text dark >NumSharp</v-btn>-->
-<!--        <v-btn text dark @click="$vuetify.goTo('#kerasnet', options)">Keras.NET</v-btn>-->
-<!--        <v-btn text dark @click="$vuetify.goTo('#numpynet', options)">Numpy.NET</v-btn>-->
-<!--        <v-btn text dark @click="$vuetify.goTo('#scisharpcube', options)">SciSharp Cube</v-btn>-->
-<!--        <v-btn text dark @click="$vuetify.goTo('#neuralnetworknet', options)">NeuralNetwork.NET</v-btn>-->
-<!--        <v-btn text dark @click="$vuetify.goTo('#incubator', options)">Incubator</v-btn>-->
-<!--      </v-layout>-->
+
       <v-spacer></v-spacer>
       
       <v-btn fab text dark style="width: 32px; height: 32px;" href="https://medium.com/scisharp" target="_blank">
@@ -74,6 +61,16 @@
           offset: 0,
           easing: 'easeInOutCubic',
         },
+        navbar_libs: [
+            { id:'#top', name: 'SciSharp STACK'},
+            { id:'#tfnet', name: 'TensorFlow.NET'},
+            { id:'#numsharp', name: 'NumSharp'},
+            { id:'#kerasnet', name: 'Keras.NET'},
+            { id:'#numpynet', name: 'Numpy.NET'},
+            { id:'#scisharpcube', name: 'SciSharp Cube'},
+            { id:'#neuralnetworknet', name: 'NeuralNetwork.NET'},
+            { id:'#incubator', name: 'Incubator'},
+        ]
       }
     },
     mounted() {
@@ -87,7 +84,11 @@
       })
     },
     methods: {
-
+        on_navbar_click(item) {
+            console.log({item})
+            this.$vuetify.goTo(item.id, this.options);
+            this.drawer=false;
+        }
     },
   }
 </script>
