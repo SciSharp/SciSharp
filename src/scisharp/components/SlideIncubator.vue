@@ -26,9 +26,9 @@
             </v-flex>
 
             <v-flex>
-                <v-layout row wrap mx-5 text-left>
-                    <v-spacer></v-spacer>
-                    <v-flex xs4 mx-5>
+                <v-layout row wrap mx-md-5 text-left>
+                    <v-spacer v-if="$vuetify.breakpoint.mdAndUp"></v-spacer>
+                    <v-flex xs12 md4 mx-md-5>
                         <v-list two-line class="bg1" dark>
 
                             <v-list-item href="https://github.com/SciSharp/Torch.NET" target="_blank" @click="">
@@ -94,7 +94,7 @@
                         </v-list>
                     </v-flex>
 
-                    <v-flex xs4 mx-5>
+                    <v-flex xs12 md4 mx-md-5>
                         <v-list two-line class="bg1" dark>
 
                             <v-list-item href="https://github.com/SciSharp/BotSharp" target="_blank" @click="">
@@ -150,7 +150,7 @@
                         </v-list>
                     </v-flex>
 
-                    <v-spacer></v-spacer>
+                    <v-spacer v-if="$vuetify.breakpoint.mdAndUp"></v-spacer>
                 </v-layout>
 <!--                <v-btn-->
 <!--                        text large outlined-->

@@ -13,9 +13,14 @@
     <v-app-bar app :clipped-left="true" class="violet theme--dark" elevate-on-scroll id="top">
 <!--        :class="{ [`elevation-${toolbar_elevation}`]: true }"-->
       <v-app-bar-nav-icon dark @click="drawer=!drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title class="headline" @click="$vuetify.goTo(0, options)" style="cursor: pointer;">
-        <span>SciSharp</span>
-        <span class="font-weight-light text-uppercase"> STACK</span>
+      <v-toolbar-title @click="$vuetify.goTo(0, options)" style="cursor: pointer;" :style="{'padding-left':$vuetify.breakpoint.smAndUp ? '20px' : '0'}">
+          <template v-if="$vuetify.breakpoint.smAndUp">
+            <span>SciSharp</span>
+            <span class="font-weight-light text-uppercase"> STACK</span>
+          </template>
+          <template v-else>
+              <v-img :src="require('@/assets/icon.svg')" contain alt="SciSharp STACK"></v-img>
+          </template>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
