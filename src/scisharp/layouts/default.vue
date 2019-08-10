@@ -33,7 +33,7 @@
         <v-icon small>fab fa-facebook</v-icon>
       </v-btn>
 
-      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpS" target="_blank">
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpStack" target="_blank">
         <v-icon small>fab fa-twitter</v-icon>
       </v-btn>
 
