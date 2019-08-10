@@ -32,6 +32,14 @@
                         <span class="mr-2">Github</span>
                     </v-layout>
                 </v-btn>
+
+                <v-btn large dark color="#865fc5" href="https://hub.docker.com/r/scisharpstack/scisharpcube" target="_blank">
+                    <v-layout row>
+                        <v-icon class="mx-2" small>fab fa-docker</v-icon>
+                        <span class="mr-2">Docker Hub</span>
+                    </v-layout>
+                </v-btn>
+
             </v-flex>
         </v-layout>
 
