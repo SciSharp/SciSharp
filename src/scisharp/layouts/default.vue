@@ -74,8 +74,9 @@
             { id:'#numsharp', name: 'NumSharp'},
             { id:'#kerasnet', name: 'Keras.NET'},
             { id:'#numpynet', name: 'Numpy.NET'},
-            { id:'#scisharpcube', name: 'SciSharp Cube'},
+            { id:'#catalyst', name: 'Catalyst NLP'},
             { id:'#neuralnetworknet', name: 'NeuralNetwork.NET'},
+            { id:'#scisharpcube', name: 'SciSharp Cube'},
             { id:'#incubator', name: 'Incubator'},
         ]
       }

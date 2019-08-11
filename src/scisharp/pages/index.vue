@@ -108,8 +108,10 @@
         <SlideNumSharp></SlideNumSharp>
         <SlideKerasNet></SlideKerasNet>
         <SlideNumpyNet></SlideNumpyNet>
-        <SlideSciSharpCube></SlideSciSharpCube>
+        <SlideCatalystNlp></SlideCatalystNlp>
         <SlideNeuralNetworkNet></SlideNeuralNetworkNet>
+        <SlideSciSharpCube></SlideSciSharpCube>
+        <div class="bg2" style="min-height: 4px;"></div>
         <SlideIncubator></SlideIncubator>
 
         <Footer></Footer>
@@ -123,6 +125,7 @@
     import SlideNumSharp from '~/components/SlideNumSharp.vue'
     import SlideKerasNet from "~/components/SlideKerasNet";
     import SlideNumpyNet from "~/components/SlideNumpyNet";
+    import SlideCatalystNlp from "../components/SlideCatalystNlp";
     import SlideSciSharpCube from "../components/SlideSciSharpCube";
     import SlideIncubator from "~/components/SlideIncubator";
     import SlideNeuralNetworkNet from "../components/SlideNeuralNetworkNet";
@@ -132,7 +135,7 @@
         components: {
             Footer,
             SlideNeuralNetworkNet,
-            SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet, SlideNumSharp, SlideNumpyNet, SlideIncubator,
+            SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet, SlideNumSharp, SlideNumpyNet, SlideIncubator, SlideCatalystNlp
         },
         data: () => ({}),
         head() {
