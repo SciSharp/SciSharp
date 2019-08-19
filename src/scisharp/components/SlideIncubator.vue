@@ -147,6 +147,15 @@
                                 </v-list-item-content>
                             </v-list-item>
 
+                            <v-list-item href="https://github.com/SciSharp/SiaNet" target="_blank" @click="">
+                                <v-list-item-avatar>
+                                    <v-icon>fab fa-github</v-icon>
+                                </v-list-item-avatar>
+                                <v-list-item-content>
+                                    <v-list-item-title>SiaNet</v-list-item-title>
+                                    <v-list-item-subtitle>An easy to use C# deep learning library with CUDA/OpenCL support</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
                         </v-list>
                     </v-flex>
 
