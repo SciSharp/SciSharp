@@ -111,7 +111,7 @@
         <SlideCatalystNlp></SlideCatalystNlp>
         <SlideNeuralNetworkNet></SlideNeuralNetworkNet>
         <SlideSciSharpCube></SlideSciSharpCube>
-        <div class="bg2" style="min-height: 4px;"></div>
+        <SlideCompanies/>
         <SlideIncubator></SlideIncubator>
 
         <Footer></Footer>
@@ -128,6 +128,7 @@
     import SlideCatalystNlp from "../components/SlideCatalystNlp";
     import SlideSciSharpCube from "../components/SlideSciSharpCube";
     import SlideIncubator from "~/components/SlideIncubator";
+    import SlideCompanies from "~/components/SlideCompanies";
     import SlideNeuralNetworkNet from "../components/SlideNeuralNetworkNet";
     import Footer from "../components/Footer";
 
@@ -135,7 +136,7 @@
         components: {
             Footer,
             SlideNeuralNetworkNet,
-            SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet, SlideNumSharp, SlideNumpyNet, SlideIncubator, SlideCatalystNlp
+            SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet, SlideNumSharp, SlideNumpyNet, SlideIncubator, SlideCatalystNlp, SlideCompanies
         },
         data: () => ({}),
         head() {
