@@ -62,12 +62,17 @@ export default {
     '@nuxtjs/vuetify',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/google-analytics',
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+  },
+
+  googleAnalytics: {
+    id: 'UA-146048522-1'
   },
   /*
   ** vuetify module configuration
