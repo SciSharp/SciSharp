@@ -7,9 +7,9 @@
                       text-center
                       wrap
             >
-                <v-flex xs12>
+                <v-flex xs12 style="min-height: 250px;">
                     <v-img
-                            :src="require('../assets/scisharp-stack.svg')"
+                            :src="require('@/assets/scisharp-stack.svg')"
                             contain
                             class="mt-5 mb-2"
                             height="250"
@@ -121,6 +121,7 @@
 
 
 <script>
+    import 'babel-polyfill'
     import SlideTensorFlowNet from '~/components/SlideTensorFlowNet.vue'
     import SlideNumSharp from '~/components/SlideNumSharp.vue'
     import SlideKerasNet from "~/components/SlideKerasNet";
@@ -138,7 +139,8 @@
             SlideNeuralNetworkNet,
             SlideSciSharpCube, SlideKerasNet, SlideTensorFlowNet, SlideNumSharp, SlideNumpyNet, SlideIncubator, SlideCatalystNlp, SlideCompanies
         },
-        data: () => ({}),
+        data: () => ({
+        }),
         head() {
             return {
                 title: "SciSharp STACK",

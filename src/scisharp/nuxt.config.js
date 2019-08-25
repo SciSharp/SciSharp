@@ -63,6 +63,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/google-analytics',
+    'nuxt-polyfill',
   ],
   /*
   ** Axios module configuration
@@ -73,6 +74,14 @@ export default {
 
   googleAnalytics: {
     id: 'UA-146048522-1'
+  },
+
+  polyfill: {
+    features: [
+      {
+        require: 'babel-polyfill'
+      },
+    ]
   },
   /*
   ** vuetify module configuration

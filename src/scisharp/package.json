@@ -14,10 +14,15 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/device": "^1.2.3",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/vuetify": "1.2.1",
+    "babel-polyfill": "^6.26.0",
+    "bowser": "^2.5.3",
     "nuxt": "^2.8.1",
-    "vue-meta": "^2.2.1"
+    "nuxt-polyfill": "^1.0.3",
+    "vue-meta": "^2.2.1",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
