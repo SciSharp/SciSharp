@@ -20,3 +20,5 @@ Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STAC
 ### Referenced by:
 * https://medium.com/machinelearningadvantage/run-tensorflow-machine-learning-code-in-c-with-almost-no-changes-77f7b629389
 * https://libinjoseph.com/2019/technologies-to-watch-out/
+* https://devblogs.microsoft.com/dotnet/announcing-ml-net-1-4-preview-and-model-builder-updates-machine-learning-for-net/
+* https://www.meetup.com/Frederick-NET-Meetup/events/263752705/
