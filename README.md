@@ -25,6 +25,8 @@ Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STAC
 * https://devblogs.microsoft.com/cesardelatorre/training-image-classification-recognition-models-based-on-deep-learning-transfer-learning-with-ml-net/
 * https://www.youtube.com/watch?v=sN9e-Fj4NuI&t=317m39s
 * http://blog.itpub.net/69946223/viewspace-2661203/
+* https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/image-classification-api-transfer-learning
+* https://devblogs.microsoft.com/dotnet/announcing-ml-net-1-4-global-availability-machine-learning-for-net/
 
 
 [![gitMemory](art/gitmemory.png)](https://www.gitmemory.com/SciSharp)
