@@ -11,6 +11,7 @@ This repo contains the source code for http://scisharpstack.org
 * [Numpy.NET](https://github.com/SciSharp/Numpy.NET) C# bindings for NumPy - a fundamental library for scientific computing, machine learning and AI
 * [ICSharpCore](https://github.com/SciSharp/ICSharpCore)
 Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STACK.
+* [SharpCV](https://github.com/SciSharp/SharpCV) A image library combines OpenCV and NumSharp together. SharpCV returns Mat object with NDArray supported.
 
 ### Alpha or Work-in-Progress
 * [Torch.NET](https://github.com/SciSharp/Torch.NET) C#/NETStandard bindings for PyTorch. Run your Tensor computations or Neural Networks on the GPU.
