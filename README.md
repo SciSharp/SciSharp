@@ -19,6 +19,8 @@ Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STAC
 * [BotSharp](https://github.com/SciSharp/BotSharp) The Open Source AI Chatbot Platform Builder in 100% C# Running in .NET Core with Machine Learning algorithm.
 
 ### Referenced by:
+* https://medium.com/dev-genius/tensorflow-basic-setup-for-net-developers-d56bfb0af40e
+* https://www.youtube.com/watch?v=NpZP_TWhq04&t=155s
 * https://medium.com/machinelearningadvantage/run-tensorflow-machine-learning-code-in-c-with-almost-no-changes-77f7b629389
 * https://libinjoseph.com/2019/technologies-to-watch-out/
 * https://devblogs.microsoft.com/dotnet/announcing-ml-net-1-4-preview-and-model-builder-updates-machine-learning-for-net/
