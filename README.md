@@ -22,12 +22,6 @@ Jupyter kernel in C# .NET Core which is the standard interface for SciSharp STAC
 * [Dash.NET](https://github.com/plotly/Dash.NET) A .NET interface to Dash- the most downloaded framework for building ML & data science web apps
 * [FsLab](https://fslab.org) An F# Community incubation space for data science
 
-### Alpha or Work-in-Progress
-
-* [Torch.NET](https://github.com/SciSharp/Torch.NET) C#/NETStandard bindings for PyTorch. Run your Tensor computations or Neural Networks on the GPU.
-* [SiaNet](https://github.com/SciSharp/SiaNet) A C# deep learning library, human friendly, CUDA/OpenCL supported, well structured, easy to extend.
-* [BotSharp](https://github.com/SciSharp/BotSharp) The Open Source AI Chatbot Platform Builder in 100% C# Running in .NET Core with Machine Learning algorithm.
-
 ### Referenced by:
 
 * https://medium.com/dev-genius/tensorflow-basic-setup-for-net-developers-d56bfb0af40e
