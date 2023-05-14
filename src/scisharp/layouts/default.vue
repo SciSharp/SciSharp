@@ -36,6 +36,10 @@
       <v-btn fab text dark style="width: 32px; height: 32px;" href="https://twitter.com/ScisharpStack" target="_blank">
         <v-icon small>fab fa-twitter</v-icon>
       </v-btn>
+      
+      <v-btn fab text dark style="width: 32px; height: 32px;" href="https://discord.com/invite/KrSMhNpF" target="_blank">
+        <v-icon small>fab fa-discord</v-icon>
+      </v-btn>
 
       <v-btn fab text dark style="width: 32px; height: 32px;" href="https://gitter.im/sci-sharp/community" target="_blank">
         <v-icon small>fab fa-gitter</v-icon>
